@@ -1,6 +1,4 @@
-Here's a well-formatted version for a README file on GitHub:
 
----
 
 ## Multithreading and Synchronization in Java
 
