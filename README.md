@@ -28,3 +28,19 @@ While multithreading enhances performance, it introduces challenges when multipl
 **Considerations:**
 - **Avoiding Deadlocks:** Care must be taken to prevent deadlocks, where two or more threads are waiting indefinitely for each other to release locks.
 - **Balancing Safety and Performance:** Excessive synchronization can degrade performance due to thread contention, so it should be used judiciously.
+
+
+### **Volatile Keyword**
+- Ensures visibility of changes to variables across threads.
+- Prevents the caching of variables, ensuring that reads always reflect the most recent write.
+- Useful in scenarios where multiple threads are accessing a shared variable.
+
+### **Singleton Class**
+- A design pattern that restricts the instantiation of a class to a single instance.
+- Ensures that only one instance of the class exists, providing a global point of access to it.
+- Often used in resource management scenarios, like database connections or configuration settings.
+
+### **Producer-Consumer Problem**
+- A classic synchronization problem in concurrent programming.
+- Involves two types of threads: producers (which generate data) and consumers (which process data).
+- The challenge is to ensure that producers don’t overwhelm consumers with data and that consumers don’t try to consume data that hasn’t been produced yet.
