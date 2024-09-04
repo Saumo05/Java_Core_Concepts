@@ -1,6 +1,6 @@
 
 
-## Multithreading and Synchronization in Java
+## Java Core Concepts
 
 ### Multithreading
 
